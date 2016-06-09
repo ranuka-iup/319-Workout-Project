@@ -17,7 +17,7 @@ import javax.swing.SwingUtilities;
 public class GraphPanel extends JPanel {
 
     private int width = 800;
-    private int heigth = 400;
+    private int height = 400;
     private int padding = 25;
     private int labelPadding = 25;
     private Color lineColor = new Color(44, 102, 230, 180);
@@ -137,7 +137,7 @@ public class GraphPanel extends JPanel {
 
 //    @Override
 //    public Dimension getPreferredSize() {
-//        return new Dimension(width, heigth);
+//        return new Dimension(width, height);
 //    }
     private double getMinScore() {
         double minScore = Double.MAX_VALUE;
